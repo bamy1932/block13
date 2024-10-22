@@ -37,6 +37,7 @@ function describeTemperature(f) {
   } else if ((numF = 100 || numF > 100)) {
     message = `very hot`;
   }
+  return message;
   // TODO
 }
 
